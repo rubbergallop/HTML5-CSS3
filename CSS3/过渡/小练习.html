@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer {
+            width: 540px;
+            height: 654px;
+            position: relative;
+            overflow: hidden;
+        }
+        .picture {
+            width: 540px;
+            height: 654px;
+            transition: 0.5s linear all;
+        }
+        .mask {
+            width: 540px;
+            height: 654px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            line-height: 654px;
+            font-size: 100px;
+            opacity: 0;
+            transition: 0.5s linear all;
+            cursor: pointer;
+        }
+        .outer:hover .mask {
+            opacity: 0.5;
+        }
+        .outer:hover .picture {
+            transform: scale(1.6) rotate(20deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <img src="./IMG_6185.PNG" alt="" class="picture">
+        <div class="mask">嗨绵堡堡</div>
+    </div>
+</body>
+</html>

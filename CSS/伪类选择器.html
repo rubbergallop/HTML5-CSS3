@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link {
+            color: orange;
+        }
+        a:visited {
+            color: gray;
+        }
+        a:hover {
+            color: blue;
+        }
+        a:active {
+            color: greenyellow;
+        }
+
+        input:focus {
+            color: green;
+            background-color: orange;
+        }
+        /* div>p:first-child {
+            color: red;
+        } */
+        /* div>p:last-child {
+            color: red;
+        } */
+        /* div>p:nth-child(-n+2) {
+            color: red;
+        }           */
+        /* div>p:first-of-type {
+            color: red;
+        }
+        div>p:nth-of-type(3) {
+            color: red;
+        } */
+        div>p:not(.fail) {
+            color: red;
+        }
+        input:checked {
+            width: 100px;
+            height: 100px;
+        }
+        input:disabled {
+            background-color: rgb(57, 116, 62);
+        }
+        input:enabled {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.baidu.com">去百度</a>
+    <a href="https://www.jd.com">去京东</a>
+    <br>
+    <input type="text">
+    <br>
+    <div>
+        <p>111</p>
+        <p class="fail">222</p>
+        <p>333</p>
+        <p>444</p>
+        <p class="fail">555</p>
+    </div>
+    <input type="checkbox">
+    <input type="radio" name="www" disabled>
+    <input type="radio" name="www">
+    <input type="text" disabled>
+    <input type="text">
+</body>
+</html>

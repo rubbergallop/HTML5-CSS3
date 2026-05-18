@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 400px;
+            height: 400px;
+            background-color: skyblue;
+            margin: 0 auto;
+            font-size: 100px;
+            padding: 50px;
+            border: 50px dashed rgba(255, 0, 0, 0.5);
+            font-weight: bold;
+            color: transparent;
+            text-align: right;
+            line-height: 600px;
+            background-image: url(../path_test/IMG_6185.PNG);
+            background-repeat: no-repeat;
+            background-origin: border-box;
+            /* background-origin: content-box; */
+            background-clip: border-box;
+            background-clip: padding-box;
+            background-clip: content-box;
+            /* background-clip: text; */
+        }
+        .box2 {
+            width: 400px;
+            height: 400px;
+            background-image: url(../path_test/IMG_6185.PNG);
+            /* background-size: 300px 300px; */
+            /* background-size: 100% 100%; */
+            /* background-size: contain; */
+            background-size: cover;
+        }
+        .box3 {
+            width: 400px;
+            height: 400px;
+            background-color: skyblue;
+            margin: 0 auto;
+            font-size: 100px;
+            padding: 50px;
+            border: 50px dashed rgba(255, 0, 0, 0.5);
+            background: skyblue url(../path_test/IMG_6185.PNG) no-repeat 10px 20px / cover border-box border-box;
+        }
+        .box4 {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            background: url(../path_test/bg.gif) no-repeat,
+            url(../path_test/悟空.jpg) no-repeat right top,
+            url(../path_test/悟空.jpg) no-repeat left bottom,
+            url(../path_test/悟空.jpg) no-repeat right bottom;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box1">666</div> -->
+    <!-- <div class="box2">666</div> -->
+    <!-- <div class="box3">666</div> -->
+    <div class="box4"></div>
+</body>
+</html>

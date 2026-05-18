@@ -1,0 +1,37 @@
+{
+  "id": "5176297",
+  "name": "一个亿的项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "47040046",
+      "name": "豆皮",
+      "font_class": "doupi",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "47040049",
+      "name": "瓜子",
+      "font_class": "guazi",
+      "unicode": "e732",
+      "unicode_decimal": 59186
+    },
+    {
+      "icon_id": "47040053",
+      "name": "夏威夷果",
+      "font_class": "xiaweiyiguo",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    },
+    {
+      "icon_id": "47040060",
+      "name": "排骨",
+      "font_class": "paigu",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div::first-letter {
+            font-size: 40px;
+        }
+        div::first-line {
+            background-color: yellow;
+        }
+        div::selection {
+            background-color: purple;
+            color: orange;
+        }
+        input::placeholder {
+            color: blue;
+        }
+        p::before {
+            content: "$";
+        }
+        p::after {
+            content: ".00";
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatem aperiam eius, alias enim consequatur, ab dolorem eum, placeat magnam quibusdam at? Cumque debitis totam maiores ullam suscipit harum consectetur.</div>
+    <input type="text" placeholder="请输入文本">
+    <p>111</p>
+    <p>222</p>
+    <p>333</p>
+    <p>444</p>
+</body>
+</html>

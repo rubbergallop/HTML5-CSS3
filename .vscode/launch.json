@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/hanhaorun/Documents/前端/train/HTML5+CSS3",
+      "program": "/Users/hanhaorun/Documents/前端/train/HTML5+CSS3/build/Debug/outDebug"
+    }
+  ]
+}
