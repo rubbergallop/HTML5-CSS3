@@ -6,13 +6,14 @@
     <title>Document</title>
     <style>
         .outer {
-            width: 1000px;
+            width: 600px;
             height: 1000px;
             background-color: #888;
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
+            /* flex-wrap: wrap; */
             justify-content: flex-start;
+            align-content: flex-start;
         }
         .inner {
             width: 200px;
@@ -20,13 +21,15 @@
             background-color: skyblue;
             border: 1px solid black;
             box-sizing: border-box;
+            flex-grow: 1;
+            flex-shrink: 1;
         }
         .inner2 {
-            flex-grow: 2;
+            flex-shrink: 2;
             width: 300px;
         }
         .inner3 {
-            flex-grow: 1;
+            flex-shrink: 3;
         }
     </style>
 </head>
